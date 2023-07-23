@@ -9,22 +9,20 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    //ViewModel:
+    var viewModel: MainViewModel = MainViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        conficView()
+    }
+    
+    func conficView() {
         self.title = "Main ViewController"
+        self.view.backgroundColor = .red
+        
+        setupTableView()
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

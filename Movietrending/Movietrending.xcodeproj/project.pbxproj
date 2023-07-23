@@ -15,6 +15,8 @@
 		12A51B272A683BA400B31604 /* MovietrendingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A51B262A683BA400B31604 /* MovietrendingUITestsLaunchTests.swift */; };
 		12A51B362A68444C00B31604 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A51B342A68444C00B31604 /* MainViewController.swift */; };
 		12A51B372A68444C00B31604 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A51B352A68444C00B31604 /* MainViewController.xib */; };
+		12A51B4A2A6D83D000B31604 /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A51B492A6D83D000B31604 /* MainViewController+TableView.swift */; };
+		12A51B4C2A6D84CC00B31604 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A51B4B2A6D84CC00B31604 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		12A51B262A683BA400B31604 /* MovietrendingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovietrendingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		12A51B342A68444C00B31604 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		12A51B352A68444C00B31604 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		12A51B492A6D83D000B31604 /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
+		12A51B4B2A6D84CC00B31604 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			children = (
 				12A51B342A68444C00B31604 /* MainViewController.swift */,
 				12A51B352A68444C00B31604 /* MainViewController.xib */,
+				12A51B492A6D83D000B31604 /* MainViewController+TableView.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 		12A51B392A6845C600B31604 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				12A51B4B2A6D84CC00B31604 /* MainViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -328,7 +334,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A51B042A683BA000B31604 /* AppDelegate.swift in Sources */,
+				12A51B4A2A6D83D000B31604 /* MainViewController+TableView.swift in Sources */,
 				12A51B362A68444C00B31604 /* MainViewController.swift in Sources */,
+				12A51B4C2A6D84CC00B31604 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
